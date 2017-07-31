@@ -1,0 +1,168 @@
+
+/* ==========================================================================
+   Base styles:
+   ========================================================================== */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for responsive images */
+img {
+  max-width: 100%;
+}
+
+
+body {
+  font-family: "Sans Pro", sans-serif;
+  letter-spacing: 0.75px;
+  -webkit-font-smoothing: antialiased;
+  /*background-color: #CFF2F6;*/
+
+}
+
+a {
+	text-decoration: none;
+	color: #7B98AA;
+	font-weight: 580;
+  letter-spacing: 1px;
+	transition: all .3s ease-in-out;
+}
+
+a:hover {
+	color: #7A2B12;
+}
+/* ==========================================================================
+   Base styles: Headers
+   ==============================
+ /*Base styles: Headers*/
+
+ header {
+   padding-top: 30px;
+ 	 background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url('../images/rana.jpg');
+   background-attachment: fixed;
+   height: 100vh;
+   color: #1377AB;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   font-family: "Lato", sans-serif;
+
+   /*"Libre Baskerville"*/
+ }
+
+header a {
+  text-decoration: none;
+  color: #364A96;
+
+}
+
+header h1 {
+  font-size: 50px;
+  color: #364A96;
+
+}
+
+
+header h3, h4 {
+  font-size: 25px;
+  color: #364A96;
+}
+
+header h4 {
+  border: 1px solid white;
+  margin: 0 auto;
+  padding: 5px 15px;
+}
+
+ul {
+  -webkit-padding-start: 0px;
+}
+
+ nav {
+ 	position: fixed;
+ 	top: 0;
+ 	left: 0;
+ 	right: 0;
+ 	z-index: 1;
+  background-color: white;
+  color: #49E8CD;
+ }
+
+ /*.hamburger {
+ 	display: none;
+ 	font-size: 20px;
+ 	margin: 10px 0;
+ 	padding-left: 20px;
+ }*/
+
+ nav li {
+ 	display: inline-block;
+  width: 24%;
+  text-align: center;
+ }
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px 90px;
+  color: #364A96;
+}
+
+/* ==========================================================================
+   Base styles: About Me
+   ==============================
+/*About Me Section */
+
+
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: justify;
+  margin: 40px 10px;
+  padding: 10px 50px;
+}
+
+ section h3 {
+   text-align: center;
+   text-transform: uppercase;
+   border-top:2px solid #364A96;
+   border-bottom:2px solid #364A96;
+   margin: 0 auto;
+   padding: 10px 0px;
+   font-weight: normal;
+   color: #364A96;
+   font-size: 23px;
+ }
+
+.about-img  {
+  flex-basis: : 39%;
+}
+
+.about-p {
+  flex-basis: 65%;
+  margin: 50px 25px 0px 0px;
+}
+
+
+
+
+/* ==========================================================================
+   Base styles: FOOTER
+   ==============================*/
+footer {
+  display: inline-block;
+  justify-content: center;
+}
+
+
+input {
+	border: 2px solid #44545E;
+	margin: 5px 12px;
+	padding: 10px 100px;
+  text-transform: uppercase;
+}
